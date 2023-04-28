@@ -25,7 +25,7 @@ class ChatGPTClass extends CoreClass {
     init = async () => {
         const { ChatGPTAPI } = await import('chatgpt');
         this.openai = new ChatGPTAPI({
-            apiKey: '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'
+            apiKey: 'xxxxxx'
         });
         // const systemMessage = "Eres un asistente técnico útil y amigable que ayuda a los usuarios a resolver sus preguntas y tu nombre es Pedrito.";
         // const initialCompletion = await this.openai.sendMessage(systemMessage,
